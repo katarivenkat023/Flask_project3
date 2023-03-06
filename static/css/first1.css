@@ -1,0 +1,14 @@
+h1{
+    background-color: aqua;
+    border: 5px double rgb(231, 135, 9);
+    border-color: chartreuse;
+}
+body{
+    background-color: burlywood;
+    border: 10px double skyblue;
+    border-color: blue;
+    
+}
+button{
+    background-color: chartreuse;
+}

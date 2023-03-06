@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/first1.css') }}">
+    <script src="{{url_for('static',filename='js/first1.js')}}"></script>
+
+</head>
+<body>
+    <center>
+        <h1> this is render_templatefile</h1>
+        <p>References to Lord Krishna can be found in several Hindu mythological books, 
+           especially in the epic Hindu book, the Mahabharata.
+           Lord Krishna is also described as an important figure in the Bhagavata Purana. 
+           This is another Hindu epic book that dates to the 10th century B.C. In the text,
+           Lord Krishna is described as the charioteer for the warrior Arjuna who had guided him morally and gave military counsel to the leader.</p>
+           <img src="{{url_for('static',filename='images/krishna1.jpj.jfif')}}" alt="venkat">
+           <button onclick="Alert()">click</button>
+           
+    </center>
+    
+    
+</body>
+</html>
